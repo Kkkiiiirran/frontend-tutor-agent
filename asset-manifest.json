@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Kkkiiiirran/frontend-tutor-agent.git/static/css/main.3788dd47.css",
-    "main.js": "/Kkkiiiirran/frontend-tutor-agent.git/static/js/main.627c0936.js",
-    "static/js/453.e590f409.chunk.js": "/Kkkiiiirran/frontend-tutor-agent.git/static/js/453.e590f409.chunk.js",
-    "index.html": "/Kkkiiiirran/frontend-tutor-agent.git/index.html",
-    "main.3788dd47.css.map": "/Kkkiiiirran/frontend-tutor-agent.git/static/css/main.3788dd47.css.map",
-    "main.627c0936.js.map": "/Kkkiiiirran/frontend-tutor-agent.git/static/js/main.627c0936.js.map",
-    "453.e590f409.chunk.js.map": "/Kkkiiiirran/frontend-tutor-agent.git/static/js/453.e590f409.chunk.js.map"
+    "main.css": "/frontend-tutor-agent/static/css/main.3788dd47.css",
+    "main.js": "/frontend-tutor-agent/static/js/main.08abe61a.js",
+    "static/js/453.e590f409.chunk.js": "/frontend-tutor-agent/static/js/453.e590f409.chunk.js",
+    "index.html": "/frontend-tutor-agent/index.html",
+    "main.3788dd47.css.map": "/frontend-tutor-agent/static/css/main.3788dd47.css.map",
+    "main.08abe61a.js.map": "/frontend-tutor-agent/static/js/main.08abe61a.js.map",
+    "453.e590f409.chunk.js.map": "/frontend-tutor-agent/static/js/453.e590f409.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3788dd47.css",
-    "static/js/main.627c0936.js"
+    "static/js/main.08abe61a.js"
   ]
 }
