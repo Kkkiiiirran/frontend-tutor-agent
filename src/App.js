@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Menu from './components/menu/menu';
+import ChatBox from './components/ChatBox/ChatBox';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [activeSection, setActiveSection] = useState('chat');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+    
+      <aside className="sidebar">
+        <Menu activeSection={activeSection} onSectionChange={setActiveSection} />
+      </aside>
+
+      <main className="main-content">
+        {activeSection === 'chat' ? (
+          <ChatBox />
+        ) : (
+          <div className="placeholder-content">
+            Other content goes here...
+          </div>
+        )}
+      </main>
     </div>
   );
-}
-
+};
 export default App;
