@@ -25,7 +25,7 @@ const ChatBox = () => {
     setMessages([...messages, { text: input, sender: 'user' }]);
 
     try {
-      const response = await fetch('http://localhost:8000/ask', {
+      const response = await fetch('https://backend-tutor-agent-production.up.railway.app/ask/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question: input }),
